@@ -111,7 +111,7 @@ font-weight: 600;
 }
 .card {
   width: 90vw;
-  height: 67vh;
+  height: fit-content;
   margin-left: 0;
 }
 .card-text{
