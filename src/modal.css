@@ -71,7 +71,7 @@
 .syn{
   width:100%;
   height: 50%;
-  top:5%;
+  top:10%;
 }
 .modal-body iframe{
   top: 2vh;
@@ -93,13 +93,12 @@
   width:30%;
 }
 .modal-body img{
+  float: right;
+  height: 268px;
   padding-right: 20%;
   position: relative;
-  top:7%;
-  width:17vw;
-  height:25vw;
-  float:right;
-
+  top: 7%;
+  width: 206px;
 }
 .modal-body ul{
   position: relative;

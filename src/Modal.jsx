@@ -87,7 +87,7 @@ if(props.data[1] == "synopsis"){
     <div className='modal-body syn'>
     <h3 >Film  Synopsis</h3>
 
-    <img id="movie-img" src="" alt="" />
+    <img id="movie-img" src="./strange.jpg" alt="" />
     <p id='movie-synopsis'></p>
     {/* <p>{movieDetails}</p> */}
     </div>
