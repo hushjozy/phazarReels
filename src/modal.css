@@ -121,36 +121,53 @@
     left: 7vw;
     height: 75vh;
   }
+  .modal-head h2{
+      margin-top: 2px;;
+  }
   .movie-select{
     left: 0;
-    padding-left: 8%;
+    padding-left: 5%;
     padding-right: 1%;
     width: 98%;
+    margin-top: 2px;
   }
   .modal-main {
     width: 100%;
   }
   .movie-select button {
-    width: 20%;
-    /* height: 30px; */
+    border: 1px solid;
+    border-radius: 13px;
+    color: #fff;
+    padding: 0;
+    width: fit-content;
+    font-size: 0.4rem;
+    height: 37px;
     margin: 1px;
-    color: white;
-    border-radius: 0px;
     padding: 5px;
-    background-color: #c244008a;
-    border: 0;
-    font-size: 44%;
+    width: 22%;
   }
   .modal-body h3{
     display: none;
   }
+  .modal-body .syn img {
+    float: none;
+    height: 100px;
+    left: 37.5%;
+    margin-top: 29%;
+    padding-bottom: 3%;
+    position: inherit;
+    top: 0;
+    width: 79px;
+  }
   .modal-body img {
     float: none;
-    height: 35vw;
+    height: 133px;
     left: 33%;
     padding-bottom: 3%;
-    top: 12%;
-    width: 26vw;
+    position: inherit;
+    top: 0;
+    margin-top: 18%;
+    width: 106px;
   }
   .modal-body iframe {
     left: 8%;
@@ -159,13 +176,14 @@
     height: 50%;
   }
   .modal-body ul{
-    margin-top: 30%;
+    margin-top: 39%;
   }
   .modal-body p {
     float: none;
-    padding-left: 5%;
-    width: 90%;
     margin-bottom: 3%;
-    margin-top: 12%;
+    margin-top: 0;
+    padding-left: 5%;
+    font-size: 0.7rem;
+    width: 90%;
   }
 }
