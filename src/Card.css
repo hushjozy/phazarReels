@@ -103,20 +103,21 @@ font-weight: 600;
 }
 .card-like-bar svg{
     display: inline-block;  
-}
-@media only screen and (max-width: 450px) {
-  .movie-section{
-  left:0;
-  width: 100vw;
-}
-.card {
-  width: 90vw;
-  height: fit-content;
-  margin-left: 0;
-}
-.card-text{
-  margin-top: 5%;
-    padding: 4px;
-}
 
+}
+@media  screen and (max-width: 450px){
+    .movie-section{
+        left:0;
+        width: 100vw;
+      }
+      .card {
+        width: 90vw;
+        height: fit-content;
+        margin-left: 0;
+        padding-bottom: 2vh;
+      }
+      .card-text{
+        margin-top: 5%;
+          padding: 4px;
+      }
 }

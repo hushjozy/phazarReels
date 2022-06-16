@@ -46,7 +46,7 @@ class HomePage extends React.Component{
 if(winScroll >= 284 && winScroll < 828 ){
   var control= winScroll/284;
   document.getElementById('top-h5').style.right= control+0+'vw';
-  document.getElementById('top-h1').style.left= control +49+'vw';
+  document.getElementById('top-h1').style.left= control +47+'vw';
   document.getElementById('top-span').style.color= 'rgb(205, 80, 8)';
   document.getElementById('top-span').style.opacity= '1';
 }else if(winScroll < 284){
@@ -74,7 +74,7 @@ if(winScroll >= 284 && winScroll < 828 ){
       // });
       console.log (document.getElementById('menu'))
       if(document.getElementById('naviId').style.left==="106vw"){
-        document.getElementById('naviId').style.left="78vw"
+        document.getElementById('naviId').style.left="60vw"
         
       }else {
         document.getElementById('naviId').style.left="106vw"

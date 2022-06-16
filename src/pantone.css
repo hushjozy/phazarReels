@@ -640,15 +640,15 @@ text-align: center;
     top: 2vh;
   }
   .navi{
-    width: 20vw;
-    left: 106vw;
-    top: 7vh;
-    height: 20vh;
-    z-index: 100;
-    background: darkslategray;
-    border-radius: 15px 0 0 15px;
+    background: #2f4f4f;
     border: 2px solid #a6a6a6;
+    border-radius: 15px 0 0 15px;
+    height: 28vh;
+    left: 106vw;
+    top: 10vh;
     transition: all .5s ease-in-out;
+    width: 37vw;
+    z-index: 100;
   }
   .navi ul {
     display: block;
@@ -657,11 +657,11 @@ text-align: center;
   .navi ul li{
     display: block;
     color: #000;
-    padding-bottom: 10%;
+    padding-top: 20%;
   }
   .navi ul li button {
-    font-size: 0.7rem;
-    padding-left: 4px;
+    font-size: 1.4rem;
+    padding-left: 10px;
   }
 
   .navi-bottom{
