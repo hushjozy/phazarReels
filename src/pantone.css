@@ -625,8 +625,6 @@ text-align: center;
   }
   .nav-head{
     display: block;
-    /* background: azure; */
-    border: 1px solid green;
   }
   .nav-head span{
     display: none;
